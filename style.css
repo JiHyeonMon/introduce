@@ -1,0 +1,94 @@
+body{
+    margin:0px;
+    border:0px;
+    padding:0px;
+}
+
+.container{
+    width:960px;
+    margin:0 auto;
+}
+
+/* nav bar style */
+nav{
+    height:50px;
+    background-color:pink;
+    color:black;
+    font-family:'Merriweather', serif;
+}
+
+nav h1{
+    float:left;
+    font-size:28px;
+    line-height:180%;
+    margin:0;
+}
+
+nav ul{
+    list-style-type:none;
+    display:inline;
+}
+
+nav ul a{
+    float:right;
+    text-decoration:none;
+    width:60px;
+    line-height:50%;
+    color:white;
+}
+
+nav ul a:hover{
+    color:grey;
+}
+
+/* header */
+.header{
+    background-image: url('img/mario.jpg');
+    background-size:100% 100%;
+    height:500px;
+}
+
+#self_content{
+    margin:0 auto;
+    text-align:center;
+    font-family:'Nanum Myeongjo', serif;   
+}
+
+header h1{
+    margin-top:0px;
+    padding-top:100px;
+    color:lightpink;
+}
+
+header p{
+    color:white;
+    font-weight:bold;
+}
+
+/* article */
+section{
+    font-family: 'Nanum Myeongjo', serif;
+}
+
+.section_img{
+    width:300px;
+    float:left;
+    margin:100px 10px;
+}
+
+section h2{
+    text-align:center;
+}
+
+.section02{
+    margin-bottom:100px;
+}
+
+/* footer */
+footer{
+    background-color: lightgray;
+    font-family: 'Nanum Myeongjo', serif;
+    text-align:center;
+    padding-top:30px;
+    padding-bottom:30px;
+}
